@@ -5,7 +5,7 @@ const JDB = require('@nimiq/jungle-db');
 const fs = require('fs');
 const dns = require('dns');
 const https = require('https');
-const WebSocket = require('uws');
+const WebSocket = require('ws');
 const NodeNative = require('bindings')('nimiq_node.node');
 const chalk = require('chalk');
 
